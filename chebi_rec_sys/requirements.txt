@@ -1,0 +1,11 @@
+numpy
+configargparse
+pandas
+scipy
+sklearn
+lenskit
+cffi
+mysql-connector-python==8.0.11
+biopython
+unidecode
+unicode
