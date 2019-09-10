@@ -4,7 +4,7 @@ Chemical Compounds Recommender Matrix
 CheRM is a dataset of Chemical Compounds with the format of <user,item,rating> where the users are authors from articles, the items are Chemical Compounds from ChEBI, and the ratings are the number of articles each author wrote about an item.
 
 The goal of this dataset is to be use by collaborative-filtering recommender systems engines for recommending Chemical Compounds of interest for the researchers from the Chemistry field.
-Follow the steps bellow for creaing your own dataset, or download it from: https://drive.google.com/drive/folders/1AbYgGw7V7KgSLudwxBAbH4yZrwHlBuFG?usp=sharing
+Follow the steps bellow for creating your own dataset, or download it from: https://drive.google.com/drive/folders/1AbYgGw7V7KgSLudwxBAbH4yZrwHlBuFG?usp=sharing
 
 
 ## 1. Dump mySQL chebi database
