@@ -1,6 +1,11 @@
 # CheRM
 Chemical Compounds Recommender Matrix
 
+CheRM is a dataset of Chemical Compounds with the format of <user,item,rating> where the users are authors from articles, the items are Chemical Compounds from ChEBI, and the ratings are the number of articles each author wrote about an item.
+
+The goal of this dataset is to be use by collaborative-filtering recommender systems engines for recommending Chemical Compounds of interest for the researchers from the Chemistry field.
+Follow the steps bellow for creaing your own dataset, or download it from: https://drive.google.com/drive/folders/1AbYgGw7V7KgSLudwxBAbH4yZrwHlBuFG?usp=sharing
+
 
 ## 1. Dump mySQL chebi database
 ## 2. Create chebi_rec_sys database using chebi_rec_sys_tables.sql
@@ -13,4 +18,3 @@ Run ```ALTER TABLE articles MODIFY title TEXT CHARACTER SET utf8;``` for changin
 ## 5. In /create_CheRM/create_user_item_rating.py change the credentials for the database cheby_rec_sys and run this python file for creating CheRM
 
 
-## The files necessary for this software are available for download at: 
