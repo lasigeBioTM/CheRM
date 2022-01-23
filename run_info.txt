@@ -1,0 +1,9 @@
+docker build -t "cherm" .
+
+* run my computer
+docker run -t -d --name cherm_container --net=host -v /home/mbarros/Desktop/data:/mlData -v /home/mbarros/Desktop/recsys_code/in_git/CheRM:/CheRM cherm
+
+* run scratchy
+docker run -t -d --name cherm_container --net=host -v /mnt/data/mbarros_data/recSysData:/mlData -v /home/mbarros/CheRM:/CheRM cherm
+
+docker exec -it cherm_container bash

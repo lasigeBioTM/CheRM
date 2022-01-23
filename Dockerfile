@@ -16,22 +16,16 @@ RUN apt-get update \
     && apt-get clean
 
 
-COPY requirements.txt ./
+COPY chebi_rec_sys/requirements.txt ./
 RUN pip3 install -r requirements.txt
 
 RUN mkdir /mlData
 
-RUN mkdir /src_
-
-RUN mkdir /config
-
-
-VOLUME /config
-
-VOLUME /src_
-
 VOLUME /mlData
 
-CMD ["/usr/bin/python3", "/src_/main.py"]
+RUN mkdir /CheRM
+VOLUME /CheRM
+
+
 
 
