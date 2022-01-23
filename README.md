@@ -7,7 +7,16 @@ The goal of this dataset is to be use by collaborative-filtering recommender sys
 Follow the steps bellow for creating your own dataset, or download it from: https://drive.google.com/drive/folders/1AbYgGw7V7KgSLudwxBAbH4yZrwHlBuFG?usp=sharing
 
 ## Requirements:
-* Docker
+* numpy
+* configargparse
+* pandas
+* scipy
+* sklearn
+* cffi
+* mysql-connector-python==8.0.11
+* biopython
+* unidecode
+* unicode
 
 
 ## 1. 
