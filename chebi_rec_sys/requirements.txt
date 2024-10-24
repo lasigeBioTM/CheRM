@@ -5,7 +5,7 @@ scipy
 sklearn
 lenskit
 cffi
-mysql-connector-python==8.0.11
+mysql-connector-python==9.1.0
 biopython
 unidecode
 unicode
